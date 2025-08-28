@@ -3,7 +3,6 @@
 > **Understanding the Hidden Impact of Padding in LLMs**  
 
 [![Python](https://img.shields.io/badge/python-3.9%2B-blue.svg)](https://www.python.org/)  
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)  
 
 Padding tokens are commonly used in large language models (LLMs) to equalize sequence lengths during batched inference.  
 When mishandled, these tokens can **leak into computation**, but the extent of their influence has remained unclear.  
